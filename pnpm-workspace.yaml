@@ -1,0 +1,4 @@
+packages:
+  - 'wechat-agent-bridge/packages/*'
+  - 'packages/*'
+  - 'agents/*'

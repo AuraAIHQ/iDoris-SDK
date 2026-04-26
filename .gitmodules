@@ -1,3 +1,6 @@
 [submodule "wechat-agent-bridge"]
 	path = wechat-agent-bridge
 	url = https://github.com/mason0510/wechat-agent-bridge.git
+[submodule "agents/simple-agent"]
+	path = agents/simple-agent
+	url = git@github.com:AuraAIHQ/simple-agent.git
