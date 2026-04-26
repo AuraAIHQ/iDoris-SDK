@@ -1,0 +1,19 @@
+{
+  "name": "@agent-wechat/core",
+  "version": "0.1.0",
+  "description": "Class-based wrapper around weixin-agent-sdk providing WeChatInterface.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.ts",
+  "exports": { ".": "./index.ts" },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "weixin-agent-sdk": "workspace:*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  }
+}

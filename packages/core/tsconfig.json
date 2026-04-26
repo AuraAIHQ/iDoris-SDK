@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": [
+    "index.ts",
+    "src/**/*.ts",
+    "../../wechat-agent-bridge/packages/sdk/src/vendor.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}

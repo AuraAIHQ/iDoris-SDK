@@ -1,0 +1,24 @@
+{
+  "name": "@agent-wechat/cli",
+  "version": "0.1.0",
+  "description": "CLI entry: login + start a WeChat agent (default: StorageAgent).",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "login": "tsx main.ts login",
+    "start": "tsx main.ts start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@agent-wechat/core": "workspace:*",
+    "@aura/simple-agent": "workspace:*",
+    "weixin-agent-sdk": "workspace:*",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
